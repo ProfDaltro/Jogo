@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça-Palavras</title>
+    <style>
+        /* Adicione estilos CSS para a tabela do caça-palavras */
+    </style>
+</head>
+<body>
+    <h1>Caça-Palavras</h1>
+    <table id="wordSearchTable">
+        <!-- A tabela do caça-palavras será gerada dinamicamente aqui -->
+    </table>
+    <button id="generateButton">Gerar novo jogo</button>
+
+    <script>
+        const words = ["almoxarifado", "estoque", "reposição", "atendimento"]; // Lista de palavras
+        const gridSize = 10; // Tamanho da matriz do caça-palavras
+
+        function generateGame() {
+            // Lógica para gerar o caça-palavras
+            // Preencha a tabela com as letras das palavras e espaços vazios
+        }
+
+        function initializeGame() {
+            const generateButton = document.getElementById("generateButton");
+            generateButton.addEventListener("click", generateGame);
+            generateGame();
+        }
+
+        initializeGame();
+    </script>
+</body>
+</html>
